@@ -52,6 +52,23 @@ tls {
 
 You can replace `{env.TENCENTCLOUD_SECRET_ID}`,`{env.TENCENTCLOUD_SECRET_KEY}` with the actual auth token in the `""` if you prefer to put it directly in your config instead of an environment variable.
 
+## Recommended additional configuration
+
+To improve DNS propagation handling, it is recommended to add the following settings to your EdgeOne DNS provider configuration:
+
+https://caddyserver.com/docs/caddyfile/directives/tls#acme
+
+```
+# Maximum time to wait for DNS record propagation before timing out.
+propagation_timeout 10m
+
+# Initial delay before checking for DNS propagation.
+propagation_delay 5m
+
+# DNS resolvers to use for propagation checks (Google IPv6 DNS and Cloudflare DNS).
+resolvers 2001:4860:4860::8888 1.1.1.1
+```
+
 ## Authenticating
 
 See [the associated README in the libdns package](https://github.com/libdns/edgeone) for important information about credentials.
