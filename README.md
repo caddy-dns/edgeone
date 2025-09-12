@@ -66,7 +66,7 @@ propagation_timeout 10m
 propagation_delay 5m
 
 # DNS resolvers to use for propagation checks (Google IPv6 DNS and Cloudflare DNS).
-resolvers 2001:4860:4860::8888 1.1.1.1
+resolvers 2402:4e00:: 119.29.29.29
 ```
 
 ## Authenticating
