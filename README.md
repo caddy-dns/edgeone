@@ -65,7 +65,7 @@ propagation_timeout 10m
 # Initial delay before checking for DNS propagation.
 propagation_delay 5m
 
-# DNS resolvers to use for propagation checks (Google IPv6 DNS and Cloudflare DNS).
+# DNS resolvers to use for propagation checks.
 resolvers 2402:4e00:: 119.29.29.29
 ```
 
