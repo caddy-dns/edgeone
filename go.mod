@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.11.1
-	github.com/libdns/edgeone v1.0.1
+	github.com/libdns/edgeone v1.0.2
 )
 
 require (
