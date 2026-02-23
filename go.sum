@@ -28,8 +28,8 @@ github.com/letsencrypt/challtestsrv v1.4.2 h1:0ON3ldMhZyWlfVNYYpFuWRTmZNnyfiL9Hh
 github.com/letsencrypt/challtestsrv v1.4.2/go.mod h1:GhqMqcSoeGpYd5zX5TgwA6er/1MbWzx/o7yuuVya+Wk=
 github.com/letsencrypt/pebble/v2 v2.10.0 h1:Wq6gYXlsY6ubqI3hhxsTzdyotvfdjFBxuwYqCLCnj/U=
 github.com/letsencrypt/pebble/v2 v2.10.0/go.mod h1:Sk8cmUIPcIdv2nINo+9PB4L+ZBhzY+F9A1a/h/xmWiQ=
-github.com/libdns/edgeone v1.0.1 h1:wVUU1LX7h0HqxKUIUCX5dvCPJWxcpAwpV6u+Nn2U5W4=
-github.com/libdns/edgeone v1.0.1/go.mod h1:CUcDdpaOcqxYvfGQHBxtLDdeF9ofuRSaHIP0mNt6zKc=
+github.com/libdns/edgeone v1.0.2 h1:FiFG6MvPlNFYJUCJ0eStEO+vJsDk7unyOeDRy41WTwg=
+github.com/libdns/edgeone v1.0.2/go.mod h1:u8kd4mjeFIAm5rOMWIhVsEk1/M6qBx42vLDfQmmpcCo=
 github.com/libdns/libdns v1.1.1 h1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=
 github.com/libdns/libdns v1.1.1/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
 github.com/mholt/acmez/v3 v3.1.6 h1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=
